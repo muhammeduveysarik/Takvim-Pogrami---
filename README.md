@@ -1,25 +1,25 @@
-Takvim Uygulaması (Calendar Project) 🗓️
-Bu proje, C programlama dili kullanılarak geliştirilmiş, belirli bir yıl ve ay için takvim görüntüleme işlevi sunan bir konsol uygulamasıdır.
+Zeller Congruence Algoritması ile Takvim Uygulaması
+Bu çalışma, C programlama dili kullanılarak belirli bir tarihin haftanın hangi gününe denk geldiğini hesaplayan ve dinamik takvim çıktısı üreten bir konsol uygulamasıdır.
 
-Özellikler
-Kullanıcıdan alınan yıl ve ay bilgisine göre dinamik takvim oluşturma.
+Proje Özellikleri
+-Dinamik Takvim Üretimi: Kullanıcıdan alınan yıl ve ay bilgisine göre ilgili aya ait takvim tablosunu oluşturur.
 
-Günlerin haftalık düzene göre doğru hizalanması.
+-Hassas Hesaplama: Tarih hesaplamalarında Zeller Congruence (Zeller Uyumu) algoritması kullanılarak yüksek doğruluk hedeflenmiştir.
 
-Kullanıcı dostu ve okunaklı konsol arayüzü.
+-Artık Yıl Kontrolü: Şubat ayı ve diğer gün sayıları için artık yıl hesaplama mantığı entegre edilmiştir.
 
-Teknik Detaylar
-Proje geliştirilirken aşağıdaki temel programlama konseptleri uygulanmıştır:
+Teknik Kazanımlar
+Bilecik Şeyh Edebali Üniversitesi'ndeki bilgisayar mühendisliği eğitimim kapsamında geliştirdiğim bu projede şu yetkinlikler pekiştirilmiştir:
 
-Algoritma Mantığı: Artık yıl hesaplamaları ve ayın başlangıç gününü belirleme algoritmaları.
+-Karmaşık matematiksel algoritmaların koda dökülmesi.
 
-Kontrol Yapıları: switch-case ve for döngüleri ile veri işleme.
+-İç içe döngüler (nested loops) ile veri görselleştirme.
 
-Fonksiyonel Programlama: Kodun okunabilirliğini artırmak için modüler yapı.
+-Modüler fonksiyon yapısı ile temiz kod prensipleri.
 
-Nasıl Çalıştırılır?
-Bir C derleyicisi (GCC, Dev-C++ veya Visual Studio) yüklü olduğundan emin olun.
+Kurulum ve Çalıştırma
+1.ana.c dosyasını yerel ortamınıza indirin.
 
-ana.c (veya dosya isminiz) dosyasını derleyin.
+2.GCC veya benzeri bir C derleyicisi ile derleyin.
 
-Uygulamayı çalıştırarak görüntülemek istediğiniz yılı ve ayı girin.
+3.Uygulamayı çalıştırarak ilgili yıl ve ay değerlerini giriniz.
